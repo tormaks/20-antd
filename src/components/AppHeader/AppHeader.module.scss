@@ -1,0 +1,21 @@
+.component {
+  padding: 20px 0;
+  background-color: white;
+
+    @media screen and (max-width: 425px){
+      padding: 5px 0;
+    }
+}
+.container {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Fenix';
+  margin: 0;
+  @media screen and (max-width: 425px){
+    font-size: 14px;
+  }
+}
